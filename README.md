@@ -1,8 +1,5 @@
 
-Games made in UNITY:
-
-
-UDLAP BUS !
+UDLAP BUS!
 
 With phonegap, HTML , CSS, Javascript
 
