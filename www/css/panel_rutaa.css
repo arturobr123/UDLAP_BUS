@@ -1,0 +1,122 @@
+body
+{
+	
+}
+
+#panel_ruta
+{
+	display: none; 
+	float:left; 
+	overflow: auto; 
+	width:100%; 
+	height: 550px;
+}
+
+#cuanto
+{
+  display: none;
+}
+
+#fail{
+  display: none;
+}
+
+.fijo 
+{position:fixed !important; right:0px; top:0px; z-index:10 !important} 
+
+#mapa{
+
+    height: 650px;
+    width:100%;
+
+  }
+
+  .ocultarboton
+  {
+    display: none;
+  }
+
+  h1
+  {
+   color: #FF9933;
+  }
+
+#finalizar
+{
+
+	float:auto;
+  display:none;
+}
+
+#bLateral
+{
+
+  float:auto;
+  display:none;
+}
+
+#head
+{
+	background-color: #F8F8F8;
+	
+}
+
+#lista
+{
+  display: none;
+}
+
+#Parada h1
+{
+  color: #101010 ;
+}
+
+#NoSubrayado{
+  text-decoration: none;
+}
+
+#white
+{
+  background-color: white;
+}
+
+.top-space{
+  margin-top: 1.5em;
+}
+
+.recorridos{
+    text-align: left;
+    width: 100%;
+    margin-bottom: -2.7em;
+    margin-left: 5em;
+    
+}
+
+.fuenteRecordarQue{
+  font: oblique bold 120%;
+}
+
+#progress 
+{
+  width: 100%;position: relative;padding: 0px;
+} 
+#bar 
+{
+  height: 10px;background-color: green;
+}
+
+.labels
+{
+  color: white;
+  background-color: red;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 30px;
+  white-space: nowrap;
+}
+
+
+.textoCentrado{
+  text-align: center;
+}

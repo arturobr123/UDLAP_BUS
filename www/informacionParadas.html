@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<script src="js/paradas.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript" > 
+
+
+  $(document).ready(function(){
+
+    DatosEstacion();
+    
+  });
+
+
+
+</script>
+
+
+<div id="head" data-role="header" data-theme="a" data-position="fixed">
+
+    <h1> Información </h1>
+
+  </div>
+
+<div id="Parada" style="text-align:center;"></div> 
+
+<div style="text-align:center;" id="imagen"> </div>
+
+
+
+<div style="text-align:center;"> <h2>Horarios</h2></div> 
+
+<div style="text-align:center;" id ="horarios"></div> 
+
+<BR>
+
+<a  onclick="cambiarEstacion()" href="llevarAhi.html" rel="external"  data-role="button">Ubicación</a>
+
+
+
+
+	<div data-role="footer" data-position="fixed" data-id="fotterPPal">
+    <div data-role="navbar">
+        <ul>
+         
+          <li><a href="recuerdaque.html" data-role="button" rel="external" data-iconpos="notext" data-icon="info"></a></li>
+          <li><a href="mapa.html" data-role="button" rel="external" data-iconpos="notext" data-icon="home"></a></li>
+          <li><a href="buscar.html"  data-role="button" rel="external" data-iconpos="notext" data-icon="search"></a></li>
+       <!--   <li><a href="#" data-role="button" data-rel="back" data-iconpos="notext" data-icon="gear"></a></li> -->
+       
+        
+        </ul>
+      
+      
+      </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body,html{
+height:100%; /*Siempre es necesario cuando trabajamos con alturas*/
+}
+
+
+
+ #inferior{
+position:absolute; /*El div será ubicado con relación a la pantalla*/
+left:0px; /*A la derecha deje un espacio de 0px*/
+right:0px; /*A la izquierda deje un espacio de 0px*/
+bottom:0px; /*Abajo deje un espacio de 0px*/
+height:20%; /*alto del div*/
+
+ }
+
+.img-pequeña{
+  width: 150px; height: 150px;
+  
+  text-align:center;
+  margin-top: 2.5em;
+}
+
+ #page1.ui-page{
+    background-image: url(../img/udlap5.jpg);
+   
+    background-size:100% 100%;
+
+    opacity: 0.8;
+    
+}
+
+.ui-page{
+    background:none;
+}
+.ui-overlay-a{
+    background:#222 !important;
+}
+
+ h1
+ {
+   color: #FF9933;
+ }
+
