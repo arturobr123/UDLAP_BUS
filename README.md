@@ -8,3 +8,6 @@ Develop a mobile app to help the students to take the bus college. Goal: locate 
 The prototype is here:
 
 https://play.google.com/store/apps/details?id=com.rovirosa.busuni&hl=es
+
+
+This was develop in Fall 2016 in the honors program of my collegue.
